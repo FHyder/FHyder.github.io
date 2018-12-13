@@ -1,11 +1,11 @@
 # Site settings
 author: Fahima Hyder
-title: 
+title: My journey to becoming a Data Scientist
 header-img: img/home-bg.png
 email: hyderfahima@gmail.com
 copyright_name: Fahima Hyder
 description: > # this means to ignore newlines until "baseurl:"
-  
+  a study in studying
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  FHyder
