@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Accessing and adding weather data to create my own data."
+title:      "Accessing, engineering and adding weather data to create my own data."
 date:       2019-09-19 22:15:44 -0400
 permalink:  accessing_and_adding_weather_data_to_create_my_own_data
 ---
@@ -14,22 +14,22 @@ First, you have to get a key from the dark sky website an store it in as a key o
 
 I scoped out all the unique values in my “City” feature and then did a quick google search on latitude, longitude and stored these as variables
 
-![](http://github.com/FHyder/CapstoneProject/blob/master/df.city.unique.png)
-![](http://github.com/FHyder/CapstoneProject/blob/master/df.city.unique2.png)
+![](https://github.com/FHyder/CapstoneProject/blob/master/df.city.unique.png?raw=true)
+![](http://github.com/FHyder/CapstoneProject/blob/master/df.city.unique2.png?raw=true)
 
 
 
 
 To get historical weather data you create the forecast object with the following parameters (*key,latitude,longitude, time=(year, month, day).isoformat())). I accessed the ‘data’ key in the forecast object to find specific information for that day
 
-![](https://github.com/FHyder/CapstoneProject/blob/master/forecast.png)
+![](https://github.com/FHyder/CapstoneProject/blob/master/forecast.png?raw=true)
 
 
 
 
 I then created a function to extract weather information and used it on 10 different cities.
 
-![](https://github.com/FHyder/CapstoneProject/blob/master/getweatherdata.png)
+![](https://github.com/FHyder/CapstoneProject/blob/master/getweatherdata.png?raw=true)
 
 
 
@@ -41,7 +41,7 @@ I then created a function to extract weather information and used it on 10 diffe
 However, until about 2003 there were only about 11 weather stations in all of Malaysia so there were definitely instances of missing data. 
 
 
-![](https://github.com/FHyder/CapstoneProject/blob/master/incomplete.png)
+![](https://github.com/FHyder/CapstoneProject/blob/master/incomplete.png?raw=true)
 
 
 
