@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Accessing and adding weather data to create my own data."
-date:       2019-09-20 02:15:43 +0000
+date:       2019-09-19 22:15:44 -0400
 permalink:  accessing_and_adding_weather_data_to_create_my_own_data
 ---
 
