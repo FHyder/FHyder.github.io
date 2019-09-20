@@ -45,8 +45,6 @@ However, until about 2003 there were only about 11 weather stations in all of Ma
 
 
 
-
-
 To remedy this I’m going to fill all null values with the average of that feature for that month based on available data
 
 ```%%time
@@ -63,8 +61,8 @@ mdf.temperatureMax =  mdf[['City', 'month', 'temperatureMax']].groupby(['City','
 
 Now I had complete weather data added to my set!
 
+
+
+
 ![](https://github.com/FHyder/CapstoneProject/blob/master/complete.png)
-
-
-
 
